@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+li{
+    list-style: none;
+
+}
+a{
+    text-decoration: none;
+}
+input,button{
+    outline: none;
+    border: none;
+}
+.nav{
+    padding: 40px 0;
+    background-color: rgb(30, 30, 40);
+}
+.nav__info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav__list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    font-size: 25px;
+}
+.nav__link{
+    color:white;
+}
+.nav__logo{
+    font-size: 40px;
+    color: white;
+}
