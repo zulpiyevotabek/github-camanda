@@ -43,3 +43,15 @@ input,button{
     font-size: 40px;
     color: white;
 }
+.title{
+    font-size: 100px;
+    color: white;
+}
+.header__section{
+    background-color:  #000000;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
